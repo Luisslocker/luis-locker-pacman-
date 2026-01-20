@@ -1,12 +1,4 @@
-// Luis’s Locker — Drip Maze Run (Pacman style)
-// Pure HTML5 canvas. No libraries.
 
-// ====== Canvas ======
-const canvas = document.getElementById("game");
-const ctx = canvas.getContext("2d");
-
-// HUD
-const scoreEl = document.getElementById("score");
 const livesEl = document.getElementById("lives");
 const levelEl = document.getElementById("level");
 
